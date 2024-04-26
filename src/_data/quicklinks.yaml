@@ -1,14 +1,25 @@
----
 links:
-  - title: Netlify CMS
-    url: "https://www.netlifycms.org/"
-    desc: Open source content management for your Git workflow
+  - title: CSCI E-114 - Web Development Using Jamstack
+    url: https://courses.dce.harvard.edu/?details&srcdb=202402&crn=26437
+    desc: This course provides an introduction to web application development
+      through the Jamstack (Javascript, application programming interfaces
+      [APIs], and Markup) approach.
   - title: Eleventy
-    url: "https://www.11ty.dev/"
+    url: https://www.11ty.dev/
     desc: Eleventy is a simpler static site generator.
+  - title: Netlify
+    url: https://www.netlify.com/
+    desc: Realize the speed, agility and performance of a scalable, composable web
+      architecture with Netlify. Explore the composable web platform now!
+  - title: Decap CMS
+    url: https://decapcms.org/
+    desc: Open source content management for your Git workflow
   - title: Alpine.js
-    url: "https://github.com/alpinejs/alpine"
+    url: https://github.com/alpinejs/alpine
     desc: A minimal framework for composing JavaScript behavior in your markup.
   - title: Tailwind CSS
-    url: "https://tailwindcss.com/"
+    url: https://tailwindcss.com/
     desc: A utility-first CSS framework for rapidly building custom designs.
+  - title: Harvard Extension School
+    url: https://www.extension.harvard.edu/
+    desc: The school where CSCI E-114 is taught!

@@ -30,6 +30,17 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
+  - label: "Resources"
+    name: "resources"
+    folder: "src/resources"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Description", name: description, widget: text }
+      - { label: "Image", name: "image", widget: image}
   - label: "Settings"
     name: "settings"
     editor:
@@ -58,7 +69,7 @@ collections:
             fields:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
-              - { label: Description, name: desc, widget: string }
+              - { label: Description, name: desc, widget: text }
       - label: "Meta Settings"
         name: "settings"
         file: "src/_data/settings.yaml"
